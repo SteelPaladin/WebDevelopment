@@ -1,45 +1,19 @@
-/*Styling for Header class*/
+/*This is how we comment in CSS*/
+
 .Header {
 	text-align: center;
 	font-family: Helvetica;
-	font-size: 48px;
+	font-size: 56px;
 }
 
-/*Styling for Image class*/
-.Image > img{
-	margin-left: 31%;
-	padding: 4%;
-	width: 30%;
-	height: 30%;
-}
-
-/*Styling for Lists class*/
-.Lists {
-	font-family: Helvetica;
-	font-size: 22px;
-	color: #03e3f8;
-}
-
-.NavBar > ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	overflow: hidden;
-	background-color: #272828;
-}
-
-.NavBar > ul > li {
-	float: left;
-}
-
-.NavBar > ul > li > a {
-	display: block;
-	color: white;
+.Body {
 	text-align: center;
-	padding :14px 16px;
-	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 16px;
 }
 
-.NavBar > ul > li > a:hover {
-	background-color: #0d7a0f;
+.Image > img {
+	margin-left: 35%;
+	height: 30%;
+	width:30%
 }

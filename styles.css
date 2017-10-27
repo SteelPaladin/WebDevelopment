@@ -1,19 +1,72 @@
-/*This is how we comment in CSS*/
+body {
+	margin: 0;
+	padding : 0;
+}
 
 .Header {
 	text-align: center;
+	font-size: 32px;
 	font-family: Helvetica;
-	font-size: 56px;
 }
 
 .Body {
 	text-align: center;
-	font-family: Helvetica;
 	font-size: 16px;
+	font-family: Helvetica;
 }
 
-.Image > img {
-	margin-left: 35%;
+.Body > img {
+	width: 30%;
 	height: 30%;
-	width:30%
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.Active > ul > li > a {
+	background-color: #ffffff;
+	color: black;
+}
+
+.NavBar > ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #272828;
+}
+
+.NavBar > ul > li {
+	float: left;
+}
+
+.NavBar > ul >li > a {
+	display: block;
+	color: white;
+	font-family: Helvetica;
+	text-align: center;
+	padding: 14px 28px;
+	text-decoration: none;
+}
+
+.NavBar > ul > li > a:hover {
+	background-color: #0d7a0f;
+}
+
+/*Styling for search bar*/
+input[type=text] {
+	width: 200px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 18px;
+	font-family: Helvetica;
+	background-color: white;
+	padding: 12px 16px 12px 20px;
+	-webkit-transition: width 0.8s ease-in-out;
+	transition: width 0.8s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+

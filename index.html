@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="styles.css">
-
-<html>
-
-<!--The header of my site-->
-<head>
-	<div class="Header">
-		<h1>My Site Title</h1>
-		<h2>Subtitle</h2>
-	</div>
-</head>
-
-<!--The main body of my site-->
-<body>
-	<div class="Body">
-		<p>This is the main text of my site.</p>
-		
-		<!--unordered List-->
-		<ul>
-			<li>List element</li>
-			<li>List element</li>
-			<li>List element</li>
-		</ul>
-		<!--Ordered List-->
-		<ol>
-			<li>List element</li>
-			<li>List element</li>
-			<li>List element</li>
-		</ol>
-	</div>
 	
-	<div class="Image">
-		<!--The image source goes under the src attribute-->
-		<img src="https://i.imgur.com/CCE82nI.jpg">
-	</div>
-</body>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<!--Making the page responsive-->
+<meta name="viewport" content="width=device-width, initial-scael=1.0">
 
+	<!--Header tags for site's head-->
+	<header>
+		<!--Navigation Bar-->
+		<div class="NavBar">
+			<ul>
+				<li><a class="Active" href="index.html">Home</a></li>
+				<li><a href="downloads.html">Downloads</a></li>
+				<li><a>About Us</a></li>
+				<li><a>Contact</a></li>
+				<!--Search bar in navigation bar-->
+				<li style="float:right;"><input type="text" name="Search" placeholder="Search..."></li>
+			</ul>
+		</div>
+		<div class="Header">
+			<h1>My Llama Site</h1>
+		</div>
+	</header>
+	
+	<!--My body tags, main content of site-->
+	<body>
+		<div class="Body">
+			<p>This is my website for Llamas, welcome!</p>
+				<br>
+			<p><b><u>Harrison Baillie</u></b></p>
+			<p><a href="http://gocode.academy/kids/">GoCode Academy</a></p>
+		
+			<img src="https://goo.gl/Ekw87h">
+		</div>
+		
+		<div class="Lists">
+			<ul>
+				<li>Unordered Element</li>
+				<li>Unordered Element</li>
+			</ul>
+			<!--~~~~~~~~~~~~-->
+			<ol>
+				<li>Ordered Element</li>
+				<li>Ordered Element</li>
+			</ol>
+		</div>
+		
+	</body>
+	
 </html>

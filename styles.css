@@ -1,72 +1,57 @@
-body {
-	margin: 0;
-	padding : 0;
-}
-
+/*CSS for the Header class */
 .Header {
 	text-align: center;
-	font-size: 32px;
+	font-size: 28px;
 	font-family: Helvetica;
+	padding: 0;
 }
 
-.Body {
+.Subtitle {
 	text-align: center;
-	font-size: 16px;
 	font-family: Helvetica;
+	font-size: 24px;
 }
 
-.Body > img {
-	width: 30%;
+/*CSS for the 'Image' Class*/
+.Image > a > img {
+	float: right;
 	height: 30%;
+	width: 30%;
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-.Active > ul > li > a {
-	background-color: #ffffff;
-	color: black;
+/*List class*/
+.Lists {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 18px;
 }
 
+/*Styling for navigation menus*/
 .NavBar > ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
 	background-color: #272828;
+	/*---Fixing the nav bar in position---*/
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .NavBar > ul > li {
 	float: left;
 }
 
-.NavBar > ul >li > a {
+.NavBar > ul > li > a {
 	display: block;
 	color: white;
 	font-family: Helvetica;
 	text-align: center;
-	padding: 14px 28px;
+	padding: 14px 16px;
 	text-decoration: none;
 }
 
 .NavBar > ul > li > a:hover {
 	background-color: #0d7a0f;
 }
-
-/*Styling for search bar*/
-input[type=text] {
-	width: 200px;
-	box-sizing: border-box;
-	border: 2px solid #ccc;
-	border-radius: 4px;
-	font-size: 18px;
-	font-family: Helvetica;
-	background-color: white;
-	padding: 12px 16px 12px 20px;
-	-webkit-transition: width 0.8s ease-in-out;
-	transition: width 0.8s ease-in-out;
-}
-
-input[type=text]:focus {
-    width: 100%;
-}
-
